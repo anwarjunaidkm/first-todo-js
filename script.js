@@ -30,7 +30,7 @@ function additems()
 
 
 }
- //-------------------- deleteee function---------------
+ //---------------..----- deleteee function---------------
 
 function deleteItem(event){
     console.log(event.target.classList[0]);
