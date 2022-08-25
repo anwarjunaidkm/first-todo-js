@@ -49,7 +49,7 @@ body{
 .kitchen-item-list li{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: left;
     background-color :#ffac81;
     background-image: linear-gradient(315deg, #ffac81 0%, #ff928b 74%);
     padding: 10px 15px;
@@ -71,10 +71,20 @@ body{
 
 .fa-trash{
     margin-left: auto;
-    margin-right: 13x;
+    margin-right: 10px;
+}
+.fa-edit{
+    margin-right: 12px;
+
+
 }
 .kitchen-items-list{
     text-align: left;
     list-style: none;
     perspective: 1000px;
+}
+.slideOut{
+    transform: rotateX(60deg) translateY(-10px);
+    opacity: 0;
+    transition: 1s;
 }
